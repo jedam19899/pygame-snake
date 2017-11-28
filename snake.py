@@ -1,7 +1,7 @@
 '''
 Snake game.
-Authors:
-<insert the names of your teammates here>
+Authors: Jesse Dampare, 
+MOBIUS SNAKE
 '''
 
 import pygame
@@ -257,3 +257,4 @@ def start_game():
 
 # Start the snake game.
 start_game()
+#Add group member and changed group name

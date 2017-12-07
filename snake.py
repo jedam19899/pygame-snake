@@ -77,243 +77,9 @@ def snake_ran_out_of_bounds(snake):
     snake - list of 2-tuples representing the positions of each snake segment
     Note that the grid is GRID_WIDTH cells wide and GRID_HEIGHT cells high.
     """
-    if snake[0] == (0,0): #upper left hand
+    if snake[0][0] in [-1,GRID_WIDTH]:
         return True
-    if snake[0] == (1,0): #upper left hand
-        return True
-    if snake[0] == (2,0): #upper left hand
-        return True
-    if snake[0] == (3,0): #upper left hand
-        return True
-    if snake[0] == (4,0): #upper left hand
-        return True
-    if snake[0] == (5,0): #upper left hand
-        return True
-    if snake[0] == (6,0): #upper left hand
-        return True
-    if snake[0] == (7,0): #upper left hand
-        return True
-    if snake[0] == (8,0): #upper left hand
-        return True
-    if snake[0] == (9,0): #upper left hand
-        return True
-    if snake[0] == (10,0): #upper left hand
-        return True
-    if snake[0] == (11,0): #upper left hand
-        return True
-    if snake[0] == (12,0): #upper left hand
-        return True
-    if snake[0] == (13,0): #upper left hand
-        return True
-    if snake[0] == (14,0): #upper left hand
-        return True
-    if snake[0] == (15,0): #upper left hand
-        return True
-    if snake[0] == (16,0): #upper left hand
-        return True
-    if snake[0] == (17,0): #upper left hand
-        return True
-    if snake[0] == (18,0): #upper left hand
-        return True
-    if snake[0] == (19,0): #upper left hand
-        return True
-    if snake[0] == (20,0): #upper left hand     
-        return True
-    if snake[0] == (21,0): #upper left hand
-        return True
-    if snake[0] == (22,0): #upper left hand
-        return True
-    if snake[0] == (23,0): #upper left hand
-        return True
-    if snake[0] == (24,0): #upper left hand
-        return True
-    if snake[0] == (25,0): #upper left hand
-        return True
-    if snake[0] == (26,0): #upper left hand
-        return True
-    if snake[0] == (27,0): #upper left hand
-        return True
-    if snake[0] == (28,0): #upper left hand
-        return True
-    if snake[0] == (29,0): #upper left hand
-        return True
-    if snake[0] == (0,0): #upper left hand
-        return True
-    if snake[0] == (0,1): #upper left hand
-        return True
-    if snake[0] == (0,2): #upper left hand
-        return True
-    if snake[0] == (0,3): #upper left hand
-        return True
-    if snake[0] == (0,4): #upper left hand
-        return True
-    if snake[0] == (0,5): #upper left hand
-        return True
-    if snake[0] == (0,6): #upper left hand
-        return True
-    if snake[0] == (0,7): #upper left hand
-        return True
-    if snake[0] == (0,8): #upper left hand
-        return True
-    if snake[0] == (0,9): #upper left hand
-        return True
-    if snake[0] == (0,10): #upper left hand
-        return True
-    if snake[0] == (0,11): #upper left hand
-        return True
-    if snake[0] == (0,12): #upper left hand
-        return True
-    if snake[0] == (0,13): #upper left hand
-        return True
-    if snake[0] == (0,14): #upper left hand
-        return True
-    if snake[0] == (0,15): #upper left hand
-        return True
-    if snake[0] == (0,16): #upper left hand
-        return True
-    if snake[0] == (0,17): #upper left hand
-        return True
-    if snake[0] == (0,18): #upper left hand
-        return True
-    if snake[0] == (0,19): #upper left hand
-        return True
-    if snake[0] == (0,20): #upper left hand     
-        return True
-    if snake[0] == (0,21): #upper left hand
-        return True
-    if snake[0] == (0,22): #upper left hand
-        return True
-    if snake[0] == (0,23): #upper left hand
-        return True
-    if snake[0] == (0,24): #upper left hand
-        return True
-    if snake[0] == (0,25): #upper left hand
-        return True
-    if snake[0] == (0,26): #upper left hand
-        return True
-    if snake[0] == (0,27): #upper left hand
-        return True
-    if snake[0] == (0,28): #upper left hand
-        return True
-    if snake[0] == (0,29): #upper left hand
-        return True
-    if snake[0] == (29,1): #upper left hand
-        return True
-    if snake[0] == (29,2): #upper left hand
-        return True
-    if snake[0] == (29,3): #upper left hand
-        return True
-    if snake[0] == (29,4): #upper left hand
-        return True
-    if snake[0] == (29,5): #upper left hand
-        return True
-    if snake[0] == (29,6): #upper left hand
-        return True
-    if snake[0] == (29,7): #upper left hand
-        return True
-    if snake[0] == (29,8): #upper left hand
-        return True
-    if snake[0] == (29,9): #upper left hand
-        return True
-    if snake[0] == (29,10): #upper left hand
-        return True
-    if snake[0] == (29,11): #upper left hand
-        return True
-    if snake[0] == (29,12): #upper left hand
-        return True
-    if snake[0] == (29,13): #upper left hand
-        return True
-    if snake[0] == (29,14): #upper left hand
-        return True
-    if snake[0] == (29,15): #upper left hand
-        return True
-    if snake[0] == (29,16): #upper left hand
-        return True
-    if snake[0] == (29,17): #upper left hand
-        return True
-    if snake[0] == (29,18): #upper left hand
-        return True
-    if snake[0] == (29,19): #upper left hand
-        return True
-    if snake[0] == (29,20): #upper left hand     
-        return True
-    if snake[0] == (29,21): #upper left hand
-        return True
-    if snake[0] == (29,22): #upper left hand
-        return True
-    if snake[0] == (29,23): #upper left hand
-        return True
-    if snake[0] == (29,24): #upper left hand
-        return True
-    if snake[0] == (29,25): #upper left hand
-        return True
-    if snake[0] == (29,26): #upper left hand
-        return True
-    if snake[0] == (29,27): #upper left hand
-        return True
-    if snake[0] == (29,28): #upper left hand
-        return True
-    if snake[0] == (29,29): #upper left hand
-        return True
-    if snake[0] == (0,29): #upper left hand
-        return True
-    if snake[0] == (1,29): #upper left hand
-        return True
-    if snake[0] == (2,29): #upper left hand
-        return True
-    if snake[0] == (3,29): #upper left hand
-        return True
-    if snake[0] == (4,29): #upper left hand
-        return True
-    if snake[0] == (5,29): #upper left hand
-        return True
-    if snake[0] == (6,29): #upper left hand
-        return True
-    if snake[0] == (7,29): #upper left hand
-        return True
-    if snake[0] == (8,29): #upper left hand
-        return True
-    if snake[0] == (9,29): #upper left hand
-        return True
-    if snake[0] == (10,29): #upper left hand
-        return True
-    if snake[0] == (11,29): #upper left hand
-        return True
-    if snake[0] == (12,29): #upper left hand
-        return True
-    if snake[0] == (13,29): #upper left hand
-        return True
-    if snake[0] == (14,29): #upper left hand
-        return True
-    if snake[0] == (15,29): #upper left hand
-        return True
-    if snake[0] == (16,29): #upper left hand
-        return True
-    if snake[0] == (17,29): #upper left hand
-        return True
-    if snake[0] == (18,29): #upper left hand
-        return True
-    if snake[0] == (19,29): #upper left hand
-        return True
-    if snake[0] == (20,29): #upper left hand     
-        return True
-    if snake[0] == (21,29): #upper left hand
-        return True
-    if snake[0] == (22,29): #upper left hand
-        return True
-    if snake[0] == (23,29): #upper left hand
-        return True
-    if snake[0] == (24,29): #upper left hand
-        return True
-    if snake[0] == (25,29): #upper left hand
-        return True
-    if snake[0] == (26,29): #upper left hand
-        return True
-    if snake[0] == (27,29): #upper left hand
-        return True
-    if snake[0] == (28,29): #upper left hand
-        return True
-    if snake[0] == (29,29): #upper left hand
+    if snake[0][1] in [-1, GRID_HEIGHT]:
         return True
     return False
 def snake_intersected_body(snake):
@@ -322,9 +88,8 @@ def snake_intersected_body(snake):
     The snake ran into itself if the position of the head is the same as the position
     of any of its body segments.
     """
-    for part in snake:
-        if snake[0] == snake[1]:
-            return True
+    if snake[0] in snake[1:]:
+        return True
     return False
 
 def get_score(snake):
@@ -350,7 +115,7 @@ def get_snake_speed(snake):
     The speed at the beginning of the game should be 5. Once the snake has eaten 10 pieces of food,
     the speed of the game should increase (by how much is up to you).
     """
-    return 10
+    return 6
 
 def move_snake(snake, direction, food):
     """Moves the snake one space in the direction specified and returns whether food was eaten.

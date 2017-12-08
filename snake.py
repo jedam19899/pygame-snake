@@ -45,13 +45,17 @@ def get_direction(previous_direction, event_key):
     If event_key does not correspond with any of the arrows keys, return previous_direction.
     """
     if event_key == pygame.K_LEFT:
-        return DIRECTION_LEFT
+        if previous_direction != DIRECTION_RIGHT:
+            return DIRECTION_LEFT
     elif event_key == pygame.K_UP:
-        return DIRECTION_UP
+        if previous_direction != DIRECTION_DOWN :
+            return DIRECTION_UP
     elif event_key == pygame.K_DOWN:
-        return DIRECTION_DOWN
+        if previous_direction != DIRECTION_UP:
+            return DIRECTION_DOWN
     elif event_key == pygame.K_RIGHT:
-        return DIRECTION_RIGHT
+        if previous_direction != DIRECTION_LEFT:
+            return DIRECTION_RIGHT
     return previous_direction
 
 def create_food_position():

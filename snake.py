@@ -106,13 +106,13 @@ def get_score(snake):
 
 
 def get_game_over_text(score):
-    """Returns the text to draw on the screen after the game is over.
+3    """Returns the text to draw on the screen after the game is over.
     This text should contain 'Game Over' as well as the score.
     score - integer representing the current score of the game.
     """
     return 'Game Over ' + str(score)
 
-    def get_snake_speed(snake):
+def get_snake_speed(snake):
     """Return the number of cells the snake should travel in one second.
     snake - list of 2-tuples representing the positions of each snake segment
     The speed at the beginning of the game should be 5. Once the snake has eaten 10 pieces of food,

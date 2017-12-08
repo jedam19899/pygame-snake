@@ -106,7 +106,7 @@ def get_score(snake):
 
 
 def get_game_over_text(score):
-3    """Returns the text to draw on the screen after the game is over.
+    """Returns the text to draw on the screen after the game is over.
     This text should contain 'Game Over' as well as the score.
     score - integer representing the current score of the game.
     """
